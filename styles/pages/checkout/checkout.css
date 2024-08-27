@@ -128,8 +128,14 @@
   display: none;
 }
 
-.show-quantity-input .show-save-quantity-link {
+.is-editing-quantity .quantity-input,
+.is-editing-quantity .save-quantity-link {
   display: initial;
+}
+
+.is-editing-quantity .quantity-label,
+.is-editing-quantity .update-quantity-link {
+  display: none;
 }
 
 @media (max-width: 1000px) {
